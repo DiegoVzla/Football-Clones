@@ -1,2 +1,2 @@
 # Football clones
-A starter template for bootcamp students building the cryptokitty clone.
+Create a customized football clone and save it directly to the blockchain!
