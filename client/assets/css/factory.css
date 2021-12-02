@@ -1,0 +1,20 @@
+.playerBox {
+    background-color: #c8e9c2;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-left: 65px;
+    padding-bottom: 100px;
+}
+
+.playerAttributes {
+    padding: 25px;
+    background-color: #c8e9c2;
+    border-radius: 10px;
+}
+
+.dnaDiv {
+    position: absolute;
+    left:20px;
+    bottom: 5px;
+
+}

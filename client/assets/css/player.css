@@ -1,0 +1,151 @@
+.body{
+	width: auto;
+	height: 265px;
+	margin-left: 100px;
+}
+
+.hair::before {
+    content: '';
+	display: block;
+	width: 18px;
+	height: 20px;
+	background: #3b2a22;
+	top: 50px;
+	left: 165px;
+	position: absolute;
+	-webkit-transform: skewX(25deg);
+	-moz-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+
+}
+.body .hair{
+	width:70px;
+	height: 20px;
+	background-color: #3b2a22;
+	border-top-right-radius: 15px;
+	margin-left: 5px;
+}
+.body .hair .hair-right{
+	background-color: #3b2a22;
+	border-bottom-left-radius: 83%;
+	width: 26px;
+	height: 43px;
+	position: absolute;
+	left: 224px;
+	top: 70px;
+	}
+.body .hair .hear{
+	background-color: #d69170;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	position: absolute;
+	top: 91px;
+	left: 230px;
+	}	
+.body .head{
+	width: 70px;
+	height: 65px;
+	border-bottom-left-radius: 25px;
+	background-color: #d69170;
+	margin-left: 5px;
+}
+.body .main{
+	width: 107px;
+	margin-left: -10px;
+	height: 95px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 19px;
+	border-bottom-right-radius: 12px;
+	background-color: #de5d33;
+}
+.body .main .arm-left{
+	background-color: #d69170;
+	width: 13px;
+	height: 75px;
+	border-bottom-left-radius: 19px;
+	position: absolute;
+	margin-top: 20px;
+}
+.body .main .arm-left::before{
+	content: '';
+	background-color: #000;
+	display: block;
+	width: 13px;
+	height: 10px;
+}
+.body .main .arm-right{
+	background-color: #d69170;
+	width: 20px;
+	height: 75px;
+	border-bottom-left-radius: 19px;
+	border-bottom-right-radius: 19px;
+	position: absolute;
+	margin-top: 20px;
+	left: 242px;
+}
+.body .main .arm-right::before{
+	content: '';
+	background-color: #000;
+	display: block;
+	width: 20px;
+	height: 10px;
+}
+.body .bottom{
+	width: 85px;
+	height: 30px;
+	margin-left: 5px;
+	background: #9e4429;
+}
+.body ul{
+	display: block;
+	margin: 0;
+	left: 0;
+	position: absolute;
+	padding:0;
+}
+.body ul li{
+	float:left;
+	list-style-type: none;
+}
+.body ul li .leg{
+	width: 28px;
+	height: 13px;
+	background-color: #d69170;
+	margin-left: 174px;
+}
+.body ul li .socks{
+	width: 28px;
+	height: 20px;
+	background-color: #de5d33;
+	margin-left: 174px;
+}
+.body ul li .shoes{
+	width: 50px;
+	height: 22px;
+	background-color: #000;
+	margin-left: 152px;
+	border-top-left-radius: 12px;
+	border-bottom-left-radius: 10px;
+}
+.body ul .right .leg{
+	width: 28px;
+	height: 13px;
+	background-color: #d69170;
+	margin-left: 24px;
+}
+.body ul .right .socks{
+	width: 28px;
+	height: 20px;
+	background-color: #de5d33;
+	margin-left: 24px;
+}
+.body ul .right .shoes{
+	width: 50px;
+	height: 22px;
+	background-color: #000;
+	margin-left: 2px;
+	border-top-left-radius: 12px;
+	border-bottom-left-radius: 10px;
+}

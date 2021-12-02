@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Football Clones </title>
+  <script type="text/javascript" src="assets/js/jquery-3.4.1.js"></script>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <script src="assets/bootstrap/js/popper.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/web3.min.js"></script>
+  <script src="./abi.js"></script>
+
+  <link rel="stylesheet" href="assets/css/mystyle.css">
+  <link rel="stylesheet" href="assets/css/player.css">
+   <link rel="stylesheet" href="assets/css/colors.css">
+  <link rel="stylesheet" href="assets/css/factory.css">
+  <link rel="stylesheet" href="assets/css/frontend.css"> 
+</head>
+  <body>
+    <div class="container p-5" style="margin-top: 12vh;margin-bottom: 10vh; background-color: rgba(0, 2, 1, 0.952);">
+      <div align="center">
+      <h1 class="c-white">Baller Factory</h1>
+      <p class="c-white">Create your custom player</p>
+  </div>
+      <div class="row">
+          <div class="col-lg-4 playerBox m-2 light-b-shadow">
+            <div class="body">
+              <div class="hair">
+                <div class="hair-right"></div>
+                <div class="hear"></div>
+              </div>
+              <div class="head"></div>
+              <div class="main">
+                <div class="arm-left"></div>
+                <div class="arm-right"></div>
+              </div>
+              <div class="bottom"></div>
+              <ul>
+                <li>
+                  <div class="leg"></div>
+                  <div class="socks"></div>
+                  <div class="shoes"></div>
+                </li>
+                <li class="right">
+                  <div class="leg"></div>
+                  <div class="socks"></div>
+                  <div class="shoes"></div>
+                </li>
+              </ul>
+            </div>
+              <br>
+              <div class="dnaDiv" id="playerDNA">
+                  <b>
+                      DNA:
+                      <!-- Colors -->
+                       <span id="dnajersey"></span>
+                       <span id="dnahair"></span>
+                       <span id="dnasocks"></span>
+                       <span id="dnashoes"></span>
+                      
+                       <!-- Cattributes -->
+                       <span id="dnashape"></span>
+                       <span id="dnadecoration"></span>
+                       <span id="dnadecorationMid"></span>
+                       <span id="dnadecorationSides"></span>
+                       <span id="dnadanimation"></span>
+                       <span id="dnaspecial"></span>
+                  </b>
+              </div>
+          </div>
+          <div class="col-lg-7 playerAttributes m-2 light-b-shadow">
+
+<!-- Cat colors -->
+<div id="playerColors">
+              <div class="form-group">
+                  <label for="formControlRange"><b>Jersey & Shorts</b><span class="badge badge-dark ml-2" id="jerseycode"></span></label>
+                  <input type="range" min="10" max="98" class="form-control-range" id="bodycolor">
+              </div>
+            <div class="form-group">
+              <label for="formControlRange"><b>Hair</b><span class="badge badge-dark ml-2" id="haircode"></span></label>
+              <input type="range" min="10" max="98" class="form-control-range" id="haircolor">
+          </div>
+          <div class="form-group">
+            <label for="formControlRange"><b>Socks</b><span class="badge badge-dark ml-2" id="sockscode"></span></label>
+            <input type="range" min="10" max="98" class="form-control-range" id="sockscolor">
+        </div>
+        <div class="form-group">
+          <label for="formControlRange"><b>Shoes</b><span class="badge badge-dark ml-2" id="shoescode"></span></label>
+          <input type="range" min="10" max="98" class="form-control-range" id="shoescolor">
+      </div>
+
+      <button onclick="" type="button" class="btn btn-Dark">Get a random player</button>
+      <button onclick="" type="button" class="btn btn-Dark">Default player</button>
+      <button onclick="createBaller()" type="button" class="btn btn-Success">Create a new player</button>
+          </div>
+
+          </div>
+
+          </div>
+          <div class="alert alert-success" role="alert"id="ballerCreation"></div>
+          
+
+      </div>
+  </div>
+  
+  </body>
+  <script src="./index.js"></script>
+  <script src="assets/js/colors.js"></script>
+  <script src="assets/js/catSettings.js"></script>
+   <script src="assets/js/catFactory.js"></script> 
+
+</html>
